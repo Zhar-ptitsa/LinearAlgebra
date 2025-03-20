@@ -110,7 +110,11 @@ plt.plot(xdata,ydata,'ro')
 plt.plot([-50,50], [-50*coeffs_T[0]+coeffs_T[1], 50*coeffs_T[0]+coeffs_T[1]],'b', ls = '--')
 
 # This shows the plot object (Must ctrl-c out of this in the console)
-plt.show() 
+# Commented out because it does not work in GitHub Codespaces
+# plt.show() 
+
+# Save plot to png
+plt.savefig('probabilistic_regression_output.png')
 
 # It's pretty close! https://www.desmos.com/calculator/r6bhgm3g8r
 
