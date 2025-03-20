@@ -33,14 +33,14 @@ for i in range(len(data)):
 # Here we define the set of x- and y-coordinates beforehand
 # The 'ro' option yields red unconnected dots
 
-# Save plot to output.png
-plt.savefig('2D_Data_output.png')
-
-# Uncommment to create the plot object (will not work in Codespaces)
-# plt.plot(xdata,ydata, 'r+')
+plt.plot(xdata,ydata, 'ro')
 
 # This plots the line from (0,5) to (20,1), i.e. the line y = -0.2x + 5 
 plt.plot([-25,25], [-50,50],'b')
 
 # This shows the object (Must ctrl-c out of this in the console)
-plt.show() 
+# Commented out because this does not work in Github Codespaces
+# plt.show() 
+
+# Save plot to output.png
+plt.savefig('2D_Data_output.png')
