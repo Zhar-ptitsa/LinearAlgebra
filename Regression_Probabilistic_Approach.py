@@ -80,7 +80,7 @@ while (step_size > final_step_size):
  
     # Take a random jump in AB space and compute the new error
     theta = np.random.uniform(0,2*math.pi)
-    jump = np.array([step_size*np.math.cos(theta),step_size*np.math.sin(theta)])
+    jump = np.array([step_size*math.cos(theta),step_size*math.sin(theta)])
     test_coeffs_T = np.copy(coeffs_T + jump)
     D  = test_coeffs_T@A_T - y_vals_T
     test_error = norm(D)*norm(D)
