@@ -33,5 +33,10 @@ for i in range(len(data)):
 # Create the 3D plot
 ax.scatter3D(xdata,ydata,zdata, c=zdata, cmap = 'Greens')
 
-plt.show()
+# Display the plot object
+# Commented out because it does not work in GitHub Codespaces
+#plt.show()
+
+# Save the plot object as a png
+plt.savefig('3D_Data_output.png')
 
