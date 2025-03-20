@@ -1,3 +1,6 @@
+# 2D_Data_Starter
+# Basic plotting of 2D data.
+
 # Import the matplotlib package and alias the pyplot module 
 import matplotlib.pyplot as plt
 import numpy as np
