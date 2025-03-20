@@ -110,4 +110,9 @@ for i in range(len(A_guesses)):
     color_string = float(1 - (i/len(A_guesses)))
     plt.plot(xdata, ydata, color = str(color_string) )
 
-plt.show()
+# Show the plot object
+# Commented out because it does not work in GitHub Codespaces
+#plt.show()
+
+# Save plot as png
+plt.savefig('circle_fitting_output.png')
