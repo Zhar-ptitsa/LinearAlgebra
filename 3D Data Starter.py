@@ -1,3 +1,6 @@
+# 3D_Data_Starter
+# Basic plotting of data in 3D
+
 # Import the matplotlib package and alias the pyplot module 
 import matplotlib.pyplot as plt
 import numpy as np
