@@ -70,6 +70,6 @@ axs[0].imshow(im2,cmap = plt.cm.gray)
 # Set first subplot to the manipulated image
 axs[1].imshow(im3,cmap = plt.cm.gray)
 
-plt.show()
+plt.savefig('SVD_Example.png')
 
 
